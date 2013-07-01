@@ -1,0 +1,13 @@
+<stack>
+  <description brief="cram_morse_pr2">cram_morse_pr2</description>
+  <author>Maintained by Michael Karg</author>
+  <license></license>  
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/cram_morse_pr2</url>
+  <depend stack="cram_highlevel" /> <!-- fake_process_modules, cram_roslisp_common, designators_ros, cram_plan_failures -->
+  <depend stack="cram_core" /> <!-- designators, cram_reasoning, process_modules -->
+  <depend stack="navigation" /> <!-- move_base_msgs -->
+  <depend stack="ros" />
+  <depend stack="roslisp_common" /> <!-- actionlib_lisp -->
+
+</stack>

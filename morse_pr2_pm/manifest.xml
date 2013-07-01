@@ -1,0 +1,30 @@
+<package>
+  <description brief="morse_pr2_pm">
+     A process module for the PR2 robot in MORSE
+  </description>
+  <author>Michael Karg</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/morse_pr2_pm</url>
+  <!-- for all process modules and ACs -->
+  <depend package="actionlib_lisp"/>
+  <depend package="process_modules"/>
+  <depend package="designators"/>
+  <depend package="cram_roslisp_common"/>
+  <depend package="cram_reasoning"/>
+  <depend package="alexandria"/>
+  <!-- for navigation -->
+  <depend package="move_base_msgs"/>
+  <depend package="geometry_msgs"/>
+  <!-- for ptu -->
+  <!-- depend package="jido_move_head"/-->
+  <!-- for manipulation -->
+  <!-- depend package="sensor_msgs"/>
+  <depend package="cl_tf"/>
+  <depend package="morse_jido_manipulation_action"/>
+  <depend package="kdl_arm_kinematics"/>
+  <depend package="kinematics_msgs"/>
+  <depend package="cram_utilities"/-->
+</package>
+
+
